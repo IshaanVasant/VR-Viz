@@ -1,0 +1,39 @@
+  
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>SVG Basics</title>
+    </head>
+    <body>
+      
+        <div class="canvas"> </div>
+    
+        
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase-firestore.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyB4K8wvyJgxLpDd_vwLLDua2SOAdxFzV7E",
+        authDomain: "vr-viz.firebaseapp.com",
+        databaseURL: "https://vr-viz.firebaseio.com",
+        projectId: "vr-viz",
+        storageBucket: "vr-viz.appspot.com",
+        messagingSenderId: "930058987006",
+        appId: "1:930058987006:web:81483655398fa649034caf",
+        measurementId: "G-QGST50LWK9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const settings = {timestampsInSnapshots: true};
+    db.settings(settings);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
+    <script src="main-firebase.js"></script>
+  </body>
+
+
