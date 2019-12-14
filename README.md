@@ -17,3 +17,6 @@ https://bl.ocks.org/IshaanVasant/raw/a48d9913dd7e09f00e9a75fd5fdc275f/16c7711828
 
 Visualization II (VR): -
 https://bl.ocks.org/IshaanVasant/raw/dd43e5511102eb6e3c3fab4b8638584f/a9d7b9815f2cc1e7cd0c5a800fbbf28826ef5b0c/
+
+
+Medium article on the project - https://towardsdatascience.com/data-visualization-in-virtual-reality-32408475b66
